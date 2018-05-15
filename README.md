@@ -6,6 +6,7 @@ This project provides a simple React-Redux boilerplate application.  It has the 
 * Minimal Webpack v.4 with babel configuration, nothing fancy.  
 * Webpack uses Babel transpiler.  Copies index.html and style.css to the build directory.
 * Latest version of of React, Redux, and Webpack used.
+* Bootstrap v4 Container grid used, but not intrusive.
 
 ## Usage
 ```
@@ -20,3 +21,9 @@ npm start
 
 # Go to http://localhost:8080 and view the ToDo list
 ```
+
+## Screenshot
+
+Simple App with ToDo list connected component and a ToDo details connected component - All wrapped in Bootstrap v4.
+
+![Simple React Redux Boilerplate Screenshot](./simple-react-redux-snapshot.png)

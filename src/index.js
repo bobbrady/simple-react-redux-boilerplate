@@ -8,8 +8,6 @@ import { createStore } from 'redux';
 import App from './components/app';
 import reducers from './reducers';
 
-import style from '../style/style.css';
-
 ReactDOM.render(
   <Provider store={createStore(reducers)}>
     <App />
